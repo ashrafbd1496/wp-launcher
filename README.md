@@ -1,1 +1,1 @@
-"# wp-launcher" 
+"# wp-launcher WordPress theme" 
