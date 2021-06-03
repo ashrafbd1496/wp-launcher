@@ -1,24 +1,31 @@
-;(function () {
-	
+// ;(function ($) {
+//
+//
+//
+//
+//
+// }(jQuery));
+
+jQuery(document).ready(function($) {
 	'use strict';
 
 	var isMobile = {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
 		},
-			BlackBerry: function() {
+		BlackBerry: function() {
 			return navigator.userAgent.match(/BlackBerry/i);
 		},
-			iOS: function() {
+		iOS: function() {
 			return navigator.userAgent.match(/iPhone|iPad|iPod/i);
 		},
-			Opera: function() {
+		Opera: function() {
 			return navigator.userAgent.match(/Opera Mini/i);
 		},
-			Windows: function() {
+		Windows: function() {
 			return navigator.userAgent.match(/IEMobile/i);
 		},
-			any: function() {
+		any: function() {
 			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
 		}
 	};
@@ -29,7 +36,7 @@
 		$('.animate-box').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('animated-fast') ) {
-				
+
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -52,9 +59,9 @@
 							el.removeClass('item-animate');
 						},  k * 100, 'easeInOutExpo' );
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '85%' } );
@@ -82,28 +89,25 @@
 				$('.js-dt, .js-dtc').css('min-height', '');
 			}
 		});
-		
+
 	};
 
 	var countDown = function() {
 
 		simplyCountdown('.simply-countdown-one', {
-			year: "2021",
-			month: "07",
-			day: "05"
+			year: "2018",
+			month: "05",
+			day: "30"
 		});
 
 	};
-	
-	
-	
+
+
+
 	$(function(){
 		contentWayPoint();
 		loaderPage();
 		screenHeight();
 		countDown();
 	});
-
-
-
-}());
+});

@@ -1,7 +1,7 @@
 /*
 Theme Name: Launcher
 Theme URI: localhost/ashraf/wp-content/themes/
-Author: Ashraf
+Author: Ashraf Uddin
 Author URI: https://ashrafbd.com
 Description : Launcher Comming Soon WordPress Theme
 Version: 1.0
@@ -11,3 +11,11 @@ Text Domain: launcher
 Tags : coming soon, coming soon page, landing page, under construction, maintenance mode
 
 */
+
+#fh5co-logo a{
+    font-size: 48px;
+}
+
+#fh5co-logo{
+    margin-top: 30px;
+}
