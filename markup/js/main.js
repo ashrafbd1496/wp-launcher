@@ -95,10 +95,16 @@ jQuery(document).ready(function($) {
 	var countDown = function() {
 
 		simplyCountdown('.simply-countdown-one', {
+<<<<<<< HEAD
 			year: datedata.year,
 			month: datedata.month,
 			day: datedata.day
 
+=======
+			year: "2018",
+			month: "05",
+			day: "30"
+>>>>>>> 284ad1b7cf3af0f1c8902fba423ea68501fec035
 		});
 
 	};
