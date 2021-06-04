@@ -76,4 +76,3 @@ $hint = get_post_meta(get_the_ID(),'hint',true);
 
 </div>
 <?php get_footer(); ?>
-
