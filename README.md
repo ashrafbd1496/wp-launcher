@@ -1,1 +1,3 @@
-"# wp-launcher WordPress theme" 
+"# Launcher WordPress theme" 
+## [Demo](//http://comingsoon.ashrafbd.com/)
+
